@@ -13,11 +13,10 @@ Open Application With Config
     [Documentation]    Opens mobile application with Appium
     [Arguments]    ${capabilities}
     Open Application    ${APPIUM_SERVER}    **${capabilities}
-    Set Implicit Wait    ${IMPLICIT_WAIT}
 
 Close Application Safely
     [Documentation]    Closes application and cleans up session
-    Quit Application
+    Close Application
 
 Wait For Element To Be Visible
     [Documentation]    Waits for element to be visible on screen

@@ -8,11 +8,11 @@ ${APPIUM_SERVER_URL}    http://localhost:4723/wd/hub
 # Android Capabilities - Adjust these for your app
 &{ANDROID_CAPABILITIES}
 ...    platformName=Android
-...    platformVersion=13.0
+...    platformVersion=14.0
 ...    deviceName=emulator-5554
 ...    automationName=UiAutomator2
-...    appPackage=com.example.app
-...    appActivity=com.example.app.MainActivity
+...    appPackage=com.jd.jdsports
+...    appActivity=com.jd.jdsports.ui.MainActivity
 ...    autoGrantPermissions=true
 ...    noReset=false
 ...    fullReset=false

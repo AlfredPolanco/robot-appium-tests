@@ -4,8 +4,8 @@ Suite Setup      Setup Test Suite
 Suite Teardown   Teardown Test Suite
 Test Setup       Open Application With Config    ${DESIRED_CAPABILITIES}
 Test Teardown    Close Application Safely
-Resource         ../resources/common.robot
-Resource         ../config/appium_server.robot
+Resource         ../../resources/common.robot
+Resource         ../../config/appium_server.robot
 
 *** Variables ***
 ${DESIRED_CAPABILITIES}    &{ANDROID_CAPABILITIES}

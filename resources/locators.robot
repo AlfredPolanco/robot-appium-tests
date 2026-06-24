@@ -18,8 +18,8 @@ ${USER_PROFILE_ICON}      accessibility_id=Profile
 ${LOGOUT_BUTTON}          id=com.example.app:id/logout
 
 # Settings Screen
-${SETTINGS_DARK_MODE}     xpath=//android.widget.Switch[@resource-id='com.example.app:id/dark_mode_toggle']
-${SETTINGS_NOTIFICATIONS} id=com.example.app:id/notifications_toggle
+${SETTINGS_DARK_MODE}        xpath=//android.widget.Switch[@resource-id='com.example.app:id/dark_mode_toggle']
+${SETTINGS_NOTIFICATIONS}    id=com.example.app:id/notifications_toggle
 
 # Common patterns
 # Note: Adjust package name (com.example.app) to your actual app package

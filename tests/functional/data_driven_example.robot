@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation    Example of data-driven testing patterns
 Test Template     User Login Should Result In Expected Outcome
-Resource         ../resources/common.robot
-Resource         ../config/appium_server.robot
+Resource         ../../resources/common.robot
+Resource         ../../config/appium_server.robot
 
 *** Test Cases ***
 Valid Login               testuser@example.com        password123         HOME_TITLE
