@@ -13,11 +13,25 @@ A well-structured project for mobile automation testing using Robot Framework an
 ### Installation
 
 ```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate  # On macOS/Linux
+# OR
+venv\Scripts\activate  # On Windows
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Start Appium server (in another terminal)
 appium
+```
+
+### After Setup
+When returning to the project, always activate the virtual environment first:
+```bash
+source venv/bin/activate
 ```
 
 ### First Test Run
